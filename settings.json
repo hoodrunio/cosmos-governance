@@ -7,7 +7,8 @@
       "dcChannelId": "1035828716875563101",
       "proposalUrl": "https://www.mintscan.io/evmos/proposals/{id}",
       "binaryName": "evmosd",
-      "chainId": "evmos"
+      "chainId": "evmos",
+      "embedColor": "#FF0000"
     },
     {
       "name": "Okp4",
@@ -16,7 +17,8 @@
       "dcChannelId": "968040698546909184",
       "proposalUrl": "https://explore.okp4.network/okp4%20testnet/gov/{id}",
       "binaryName": "okp4d",
-      "chainId": "okp4-nemeton"
+      "chainId": "okp4-nemeton",
+      "embedColor": "#FF0000"
     }
   ]
 }

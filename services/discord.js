@@ -70,7 +70,6 @@ export async function sendProposalToDiscord(proposal, chain) {
         .setTitle(proposal.title)
         .setDescription(description)
         .setURL(url)
-        //.setColor(0xFF0000)
         .setThumbnail(chain.logoUrl)
         .setAuthor({name: `${chain.name} Governance`, iconURL: chain.logoUrl})
         .addFields(
@@ -83,6 +82,10 @@ export async function sendProposalToDiscord(proposal, chain) {
             },
             {name: 'How to vote via CLI?', value: cliMessage},
         );
+
+    if(chain.embedColor){
+        embed.setColor(chain.embedColor);
+    }
 
     await sendMessage(chain.dcChannelId, {embeds: [embed]});
 }
