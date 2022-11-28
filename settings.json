@@ -8,6 +8,15 @@
       "proposalUrl": "https://www.mintscan.io/evmos/proposals/{id}",
       "binaryName": "evmosd",
       "chainId": "evmos"
+    },
+    {
+      "name": "Okp4",
+      "lcd": "https://api.testnet.okp4.network/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1537721318191267840/GK12zUWJ_400x400.jpg",
+      "dcChannelId": "968040698546909184",
+      "proposalUrl": "https://explore.okp4.network/okp4%20testnet/gov/{id}",
+      "binaryName": "okp4d",
+      "chainId": "okp4-nemeton"
     }
   ]
 }

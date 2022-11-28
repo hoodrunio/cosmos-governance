@@ -27,7 +27,7 @@ export async function sendMessage(channelId, message) {
 }
 
 export async function sendProposalToDiscord(proposal, chain) {
-    const cliMessage = `\`\`\`${chain.binaryName} tx gov vote ${proposal.id} [yes/no/no_with_veto/abstain] --chain-id ${chain.chainId} --from '[your_key_name]\`\`\``;
+    const cliMessage = `\`\`\`${chain.binaryName} tx gov vote ${proposal.id} [yes/no/no_with_veto/abstain] --chain-id ${chain.chainId} --from [your_key_name]\`\`\``;
 
     const fields = [];
     if (proposal.type?.includes('SoftwareUpgradeProposal')) {
