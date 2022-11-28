@@ -1,0 +1,13 @@
+{
+  "chains": [
+    {
+      "name": "Evmos",
+      "lcd": "https://evmos-api.polkachu.com/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1595092806011191305/koqPJsUX_400x400.png",
+      "dcChannelId": "1035828716875563101",
+      "proposalUrl": "https://www.mintscan.io/evmos/proposals/{id}",
+      "binaryName": "evmosd",
+      "chainId": "evmos"
+    }
+  ]
+}
