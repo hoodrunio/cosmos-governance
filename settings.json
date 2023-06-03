@@ -19,6 +19,16 @@
       "binaryName": "okp4d",
       "chainId": "okp4-nemeton",
       "embedColor": "#FF0000"
+    },
+    {
+      "name": "Quicksilver",
+      "lcd": "https://lcd-quicksilver.stakerun.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1488798003473358848/V2gPwVeO_400x400.jpg",
+      "dcChannelId": "968040698546909184",
+      "proposalUrl": "https://scanrun.io/quicksilver/proposals/{id}",
+      "binaryName": "quicksilverd",
+      "chainId": "quicksilver-2",
+      "embedColor": "#FF0000"
     }
   ]
 }
